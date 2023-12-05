@@ -1,5 +1,8 @@
 # Weather API - Provincia Seguros
 
+Martin de Amorin
+<martindeamorin@gmail.com>
+
 ## Requisitos
 
 Esta aplicacion se puede levantar a traves de docker-compose o compliando directamente manualmente.
@@ -46,6 +49,7 @@ Para levantar el proyecto con los tests:
 
 ## Documentacion
 
-Una vez levantado el proyecto podemos encontar en [Swagger](http://localhost:8080/swagger-ui).
+Una vez levantado el proyecto podemos encontar el [Swagger](http://localhost:8080/swagger-ui).
 
 Alli se podran ver los endpoints, lo que el endpoint espera y devuelve, tambien se podra probar la API y hacer requests.
+
