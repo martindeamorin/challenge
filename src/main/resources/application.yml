@@ -1,0 +1,24 @@
+spring:
+    datasource:
+        url: jdbc:h2:mem:weatherdb
+        username: ${DB_USERNAME}
+        password: ${DB_PASSWORD}
+        driverClassName: org.h2.Driver
+    jpa:
+        database-platform: org.hibernate.dialect.H2Dialect
+        defer-datasource-initialization: true
+        hibernate:
+            ddl-auto: create-drop 
+    h2:
+        console:
+            enabled: true
+springdoc:
+    swagger-ui:
+        enabled: true
+        path: /swagger-ui
+    api-docs:
+        enabled: true
+        resolve-schema-properties: true
+accuweather:
+    apiKey: ${ACCU_API_KEY}
+    apiUrl:  ${ACCU_API_URL}
