@@ -12,10 +12,10 @@ El proyecto se levanta en el puerto 8080, asegurarse de que este liberado antes 
 
 Antes de ejecutar los comandos debemos tener en cuenta las varaibles de entorno. Son 4:
 
-    - **ACCU_API_KEY**: Api Key de AccuWeather
-    - **ACCU_API_URL**: URL base de la API de AccuWeather
-    - **DB_USERNAME**: User de la base H2
-    - **DB_PASSWORD**: Password de la base H2
+- **ACCU_API_KEY**: Api Key de AccuWeather
+- **ACCU_API_URL**: URL base de la API de AccuWeather
+- **DB_USERNAME**: User de la base H2
+- **DB_PASSWORD**: Password de la base H2
 
 ### Docker
 
